@@ -90,10 +90,6 @@ body {
   max-width: 960px;
 }
 
-/*
- * Custom translucent site header
- */
-
 .site-header {
   background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -152,4 +148,19 @@ body {
   .flex-md-equal > * {
     flex: 1;
   }
+}
+
+.container2{
+  align-items: center;
+}
+
+.container2 p, h1{
+  color: #BBBBBB;
+  margin: auto;
+  width: 912px;
+}
+
+.px-4 {
+  color: #BBBBBB !important;
+  font-size: 20px;
 }
